@@ -1,0 +1,62 @@
+body {
+    font-family: 'Lato', sans-serif;
+    line-height: 1.6;
+    background-color: #f8f9fa;
+}
+
+.header_area {
+    position: sticky;
+    top: 0;
+    z-index: 1030;
+}
+
+.nav-link {
+    font-weight: 700;
+    margin-right: 15px;
+    color: #333;
+    transition: color 0.3s;
+}
+
+.nav-link:hover,
+.nav-link.active {
+    color: #007bff;
+}
+
+.hotel-heading {
+    font-family: 'Playfair Display', serif;
+    font-weight: 900;
+}
+
+.card {
+    border: none;
+    border-radius: 10px;
+    background-color: #ffffff;
+}
+
+.form-label {
+    font-weight: 600;
+    color: #333;
+}
+
+.btn-primary {
+    background-color: #007bff;
+    border: none;
+    transition: background-color 0.3s;
+}
+
+.btn-primary:hover {
+    background-color: #0056b3;
+}
+
+.footer_area {
+    font-size: 0.9rem;
+}
+
+.footer_area p {
+    margin: 0;
+}
+
+.badge {
+    font-weight: 700;
+    font-size: 1.1rem;
+}
